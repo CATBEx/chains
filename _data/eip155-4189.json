@@ -3,7 +3,7 @@
   "chain": "GMA",
   "icon": "gmachain",
   "rpc": [
-    "https://api.gmachain.xyz"
+    "https://gmachain.xyz/rpc"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -15,5 +15,11 @@
   "shortName": "gma",
   "chainId": 4189,
   "networkId": 4189,
-  "explorers": []
+  "explorers": [
+    {
+      "name": "GMAChain Explorer",
+      "url": "https://explorer.gmachain.xyz",
+      "standard": "EIP3091"
+    }
+  ]
 }
